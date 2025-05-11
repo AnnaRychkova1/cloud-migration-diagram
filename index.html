@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/cloud.svg" type="image/svg" />
+    <title>Cloud Migration Diagram</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@100;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Normalizer -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+    />
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Migration of Business Processes to a Public Cloud Environment</h1>
+    </header>
+    <main>
+      <div class="container">
+        <!-- Left Section -->
+        <section class="left-section">
+          <h2 class="hidden">Business Processes</h2>
+          <ul class="left-list">
+            <li class="item-left-1">
+              <img
+                class="process-img"
+                src="./images/Process.png"
+                alt="HR Processes Internal/External"
+              />
+              <p>HR Processes Internal/External</p>
+              <img
+                class="arrow-left-1"
+                src="./images/from-process.png"
+                alt="from-process"
+              />
+            </li>
+            <li class="item-left-2">
+              <img
+                class="process-img"
+                src="./images/Support.png"
+                alt="Customer Support / Engineering Department"
+              />
+              <p>Customer Support / Engineering Department</p>
+              <img
+                class="arrow-left-2"
+                src="./images/from-support.png"
+                alt="from-support"
+              />
+            </li>
+            <li class="item-left-3">
+              <img
+                class="process-img"
+                src="./images/Marketing.png"
+                alt="Marketing / Sales / Analytics Departments"
+              />
+              <p>Marketing / Sales / Analytics Departments</p>
+              <img
+                class="arrow-left-3"
+                src="./images/from-mark.png"
+                alt="from-mark"
+              />
+            </li>
+            <li class="item-left-4">
+              <img
+                class="process-img"
+                src="./images/Storage.png"
+                alt="Storage Infrastructure"
+              />
+              <p>Storage Infrastructure</p>
+              <img
+                class="arrow-left-4"
+                src="./images/from-storage.png"
+                alt="from-storage"
+              />
+            </li>
+          </ul>
+        </section>
+        <!-- Center Section -->
+        <section class="center-section">
+          <div class="center-div">
+            <img
+              class="access-img"
+              src="./images/Access.png"
+              alt="Identity & Access Management"
+            />
+
+            <h2>Identity & Access Management</h2>
+          </div>
+        </section>
+        <!-- Right Section -->
+        <section class="right-section">
+          <h2 class="hidden">Public Cloud Services</h2>
+          <div class="public-cloud item-right-1">
+            <img
+              class="cloud-img"
+              src="./images/Cloud.png"
+              alt="Public Cloud"
+              width="280px"
+            />
+            <img
+              class="arrow-right-1"
+              src="./images/to-public.png"
+              alt="to-public"
+            />
+            <h3>Public Cloud</h3>
+          </div>
+          <ul class="list-cloud">
+            <li class="cloud-service item-right-2">
+              <p>SaaS</p>
+              <img
+                class="arrow-right-2"
+                src="./images/to-saas.png"
+                alt="to-saas"
+              />
+            </li>
+            <li class="cloud-service paas item-right-3">
+              <p>PaaS</p>
+              <img
+                class="arrow-right-3"
+                src="./images/to-paas.png"
+                alt="to-paas"
+              />
+            </li>
+            <li class="cloud-service item-right-4">
+              <p>IaaS</p>
+              <img
+                class="arrow-right-4"
+                src="./images/to-Iaas.png"
+                alt="to-Iaas"
+              />
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <img src="./images/NCI_logo.png" alt="NCI Logo" width="192" height="80" />
+      <p>
+        Created by Anna Rychkova as part of the<br />
+        Computer Architecture Operating Systems and Networks course <br />
+        (HDSDEV_SEP24)
+      </p>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
